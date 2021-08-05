@@ -1,0 +1,13 @@
+{
+  "name": "My Extension",
+  "description": "A nice little demo extension.",
+  "version": "2.1",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.bundle.js"
+  },
+  "permissions": ["activeTab"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
